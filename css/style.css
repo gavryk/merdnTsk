@@ -126,7 +126,7 @@ header {
   .service_items .item {
     display: block;
     border: 1px solid #ededed;
-    border-top: 15px solid #47545c;
+    border-top: 20px solid #47545c;
     padding: 25px 20px 10px 10px;
     font-family: intro_light, sans-serif;
     width: 160px;
@@ -134,6 +134,17 @@ header {
     position: relative;
     transition: .5s ease-out;
     cursor: pointer; }
+    .service_items .item:after {
+      content: '';
+      width: 95%;
+      height: 12px;
+      position: absolute;
+      top: -17px;
+      left: 2%;
+      border-top: 1px solid #718997;
+      border-left: 1px solid #2f3d46;
+      border-bottom: 1px solid #2f3d46;
+      border-right: 1px solid #2f3d46; }
     .service_items .item h3 {
       font-size: 18px;
       text-transform: uppercase;
@@ -165,7 +176,12 @@ header {
       width: 30px;
       height: 30px; }
     .service_items .item:hover {
-      border-top: 15px solid #5cbce2; }
+      border-top: 20px solid #5cbce2; }
+      .service_items .item:hover:after {
+        border-top: 1px solid #a4e5ff;
+        border-left: 1px solid #3ba1ca;
+        border-bottom: 1px solid #3ba1ca;
+        border-right: 1px solid #3ba1ca; }
       .service_items .item:hover a {
         opacity: 1;
         transition: .5s ease-out; }
@@ -325,6 +341,13 @@ header {
       justify-content: center; }
       #contact .contacts .contacts_info .address .phone_number {
         margin: 0; } }
+@media (max-width: 400px) {
+  .swiper-container .swiper-wrapper .swiper-slide .slide_title p {
+    margin: 15px 0; }
+  .swiper-container .swiper-wrapper .swiper-slide .link {
+    margin-top: 20px; }
+    .swiper-container .swiper-wrapper .swiper-slide .link a.button_link {
+      font-size: 16px; } }
 .pop-up_login {
   opacity: 0;
   display: flex;
@@ -339,7 +362,8 @@ header {
   .pop-up_login .login_frame {
     background-color: #fff;
     width: 480px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    position: relative; }
     .pop-up_login .login_frame .login_title {
       text-align: center;
       padding: 35px 0;
@@ -399,28 +423,28 @@ header {
       .pop-up_login .login_frame .register a + * {
         color: #8b8b8b;
         text-decoration: none; }
-  .pop-up_login .close_btn {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    cursor: pointer; }
-    .pop-up_login .close_btn span {
-      display: block;
-      background-color: #fff;
-      width: 100%;
-      height: 2px;
+    .pop-up_login .login_frame .close_btn {
+      width: 25px;
+      height: 25px;
       position: absolute;
-      top: 12px;
-      transform: rotate(45deg); }
-      .pop-up_login .close_btn span:after {
-        content: '';
+      top: 20px;
+      right: 20px;
+      cursor: pointer; }
+      .pop-up_login .login_frame .close_btn span {
         display: block;
-        background-color: #fff;
+        background-color: #000;
         width: 100%;
         height: 2px;
-        transform: rotate(-90deg); }
+        position: absolute;
+        top: 12px;
+        transform: rotate(45deg); }
+        .pop-up_login .login_frame .close_btn span:after {
+          content: '';
+          display: block;
+          background-color: #000;
+          width: 100%;
+          height: 2px;
+          transform: rotate(-90deg); }
 
 .login_active {
   opacity: 1;

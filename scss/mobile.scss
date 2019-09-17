@@ -109,6 +109,21 @@
   }
 }
 @media (max-width: 480px) {
+  //.pop-up_login {
+  //  .login_frame {
+  //    .close_btn {
+  //      top: 120px;
+  //      right: 35px;
+  //      z-index: 20;
+  //      span {
+  //        background-color: #000;
+  //        &:after {
+  //          background-color: #000;
+  //        }
+  //      }
+  //    }
+  //  }
+  //}
   .swiper-container {
     .swiper-wrapper {
       .swiper-slide {
@@ -158,6 +173,25 @@
           justify-content: center;
           .phone_number {
             margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .swiper-container {
+    .swiper-wrapper {
+      .swiper-slide {
+        .slide_title {
+          p {
+            margin: 15px 0;
+          }
+        }
+        .link {
+          margin-top: 20px;
+          a.button_link {
+            font-size: 16px;
           }
         }
       }

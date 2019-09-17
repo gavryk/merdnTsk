@@ -109,21 +109,6 @@
   }
 }
 @media (max-width: 480px) {
-  //.pop-up_login {
-  //  .login_frame {
-  //    .close_btn {
-  //      top: 120px;
-  //      right: 35px;
-  //      z-index: 20;
-  //      span {
-  //        background-color: #000;
-  //        &:after {
-  //          background-color: #000;
-  //        }
-  //      }
-  //    }
-  //  }
-  //}
   .swiper-container {
     .swiper-wrapper {
       .swiper-slide {
@@ -195,6 +180,13 @@
           }
         }
       }
+    }
+  }
+  footer {
+    .footer {
+      flex-direction: column;
+      line-height: 25px;
+      text-align: center;
     }
   }
 }

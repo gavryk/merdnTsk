@@ -347,7 +347,12 @@ header {
   .swiper-container .swiper-wrapper .swiper-slide .link {
     margin-top: 20px; }
     .swiper-container .swiper-wrapper .swiper-slide .link a.button_link {
-      font-size: 16px; } }
+      font-size: 16px; }
+
+  footer .footer {
+    flex-direction: column;
+    line-height: 25px;
+    text-align: center; } }
 .pop-up_login {
   opacity: 0;
   display: flex;

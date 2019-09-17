@@ -1,9 +1,11 @@
 header {
   padding: 20px 0;
+  position: relative;
   .header_row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
     .nav_menu {
       display: flex;
       justify-content: space-between;

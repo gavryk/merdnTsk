@@ -39,8 +39,12 @@
       font-weight: 100;
     }
     ul {
-      margin-left: 20px;
-      color: #898989
+      line-height: 17px;
+      margin-left: 14px;
+      color: #898989;
+      li {
+        font-size: 13px;
+      }
     }
     a {
       display: inline-block;
@@ -60,12 +64,16 @@
     i {
       font-size: 30px;
     }
+    img {
+      width: 30px;
+      height: 30px;
+    }
     &:hover {
       a {
         opacity: 1;
         transition: .5s ease-out;
       }
-      i {
+      i, img {
         color: #5cbce2;
       }
       border-top: 15px solid #5cbce2;

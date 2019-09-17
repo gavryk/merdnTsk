@@ -1,0 +1,40 @@
+header {
+  padding: 20px 0;
+  .header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav_menu {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      li {
+        color: #a7a7a7;
+        display: flex;
+        align-items: center;
+        i {
+          font-size: 10px;
+          margin-left: 20px;
+          transition: .5s ease-out;
+        }
+        a {
+          text-decoration: none;
+          margin-left: 20px;
+          font-size: 12px;
+          text-transform: uppercase;
+          color: #a7a7a7;
+          transition: .5s ease-out;
+        }
+        &:hover {
+          a, i {
+            color: #000;
+            transition: .5s ease-out;
+          }
+        }
+      }
+    }
+    .burger {
+      display: none;
+    }
+  }
+}

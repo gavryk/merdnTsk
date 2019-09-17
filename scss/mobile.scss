@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  header {
+    .header_row {
+      .nav_menu {
+        flex-direction: column;;
+        align-items: center;
+        width: 100%;
+        color: #fff;
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        top: 120px;
+        z-index: 100;
+        height: 190px;
+        transform: translateX(100%);
+        li {
+          a {
+            font-size: 20px;
+            margin-top: 10px;
+          }
+          i {
+            display: none;
+          }
+        }
+      }
+      .burger {
+        display: block;
+        width: 30px;
+        height: 30px;
+        span {
+          background-color: #000;
+          width: 25px;
+          height: 2px;
+          display: block;
+          margin: 50% auto;
+          &:after {
+            content: '';
+            display: block;
+            margin-bottom: 2px;
+          }
+        }
+      }
+    }
+  }
+}

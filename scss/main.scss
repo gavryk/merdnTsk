@@ -1,0 +1,21 @@
+@import "fonts";
+@import "header";
+@import "banner";
+@import "services";
+@import "memberships";
+@import "contacts";
+@import "footer";
+@import "mobile";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 96%;
+  width: 970px;
+}

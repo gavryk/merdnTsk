@@ -1,6 +1,7 @@
 #contact {
   padding: 20px 0;
-  .contacts {
+  .container {
+    justify-content: space-around;
     background-color: #47545c;
     display: flex;
     align-items: center;
@@ -10,7 +11,11 @@
       width: 50%;
     }
     h3 {
+      font-family: intro_light, sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
       margin-bottom: 15px;
+      font-weight: 100;
     }
     p {
       font-size: 13px;
@@ -20,6 +25,16 @@
       display: flex;
       .phone_number {
         margin-left: 35px;
+        p {
+          color: #fff;
+        }
+        a {
+          text-decoration: none;
+          color: #9b9c9c;
+          &:hover {
+            color: #26b4f0;
+          }
+        }
       }
     }
   }

@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'intro_black';
+  font-family: 'intro';
   src: url('../fonts/intro/intro black alt/webfont.woff2') format('woff2'),
   url('../fonts/intro/intro black alt/webfont.woff') format('woff');
-  font-weight: normal;
+  font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'intro_book_alt';
+  font-family: 'intro_book';
   src: url('../fonts/intro/intro book alt/intro-book-alt1-webfont.woff2') format('woff2'),
   url('../fonts/intro/intro book alt/intro-book-alt1-webfont.woff') format('woff');
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
 
 }
@@ -19,7 +19,7 @@
   font-family: 'intro_bold';
   src: url('../fonts/intro/intro bold/intro-bold.woff2') format('woff2'),
   url('../fonts/intro/intro bold/intro-bold.woff') format('woff');
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
 
 }
@@ -28,7 +28,7 @@
   font-family: 'intro_light';
   src: url('../fonts/intro/intro light/intro-light.woff2') format('woff2'),
   url('../fonts/intro/intro light/intro-light.woff') format('woff');
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal;
 
 }

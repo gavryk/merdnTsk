@@ -14,11 +14,6 @@ header {
         color: #a7a7a7;
         display: flex;
         align-items: center;
-        i {
-          font-size: 10px;
-          margin-left: 20px;
-          transition: .5s ease-out;
-        }
         a {
           text-decoration: none;
           margin-left: 20px;
@@ -26,9 +21,18 @@ header {
           text-transform: uppercase;
           color: #a7a7a7;
           transition: .5s ease-out;
+          &:after {
+            font-family: "Font Awesome 5 Free", sans-serif;
+            font-weight: 900;
+            content: "\f111";
+            font-size: 12px;
+            margin-left: 20px;
+            transition: .5s ease-out;
+          }
         }
         &:hover {
-          a, i {
+          a,
+          a:after {
             color: #000;
             transition: .5s ease-out;
           }

@@ -21,38 +21,38 @@
 header {
   padding: 20px 0;
   position: relative; }
-  header .header_row {
+  header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden; }
-    header .header_row .nav_menu {
+    header .container .nav_menu {
       display: flex;
       justify-content: space-between;
       list-style: none; }
-      header .header_row .nav_menu li {
+      header .container .nav_menu li {
         color: #a7a7a7;
         display: flex;
         align-items: center; }
-        header .header_row .nav_menu li a {
+        header .container .nav_menu li a {
           text-decoration: none;
           margin-left: 20px;
           font-size: 12px;
           text-transform: uppercase;
           color: #a7a7a7;
           transition: .5s ease-out; }
-          header .header_row .nav_menu li a:after {
+          header .container .nav_menu li a:after {
             font-family: "Font Awesome 5 Free", sans-serif;
             font-weight: 900;
             content: "\f111";
             font-size: 12px;
             margin-left: 20px;
             transition: .5s ease-out; }
-        header .header_row .nav_menu li:hover a,
-        header .header_row .nav_menu li:hover a:after {
+        header .container .nav_menu li:hover a,
+        header .container .nav_menu li:hover a:after {
           color: #000;
           transition: .5s ease-out; }
-    header .header_row .burger {
+    header .container .burger {
       display: none; }
 
 .swiper-container {
@@ -296,7 +296,7 @@ footer .container {
   .service_items .item {
     width: 35%; }
 
-  header .header_row .nav_menu {
+  header .container .nav_menu {
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -310,21 +310,21 @@ footer .container {
     height: 260px;
     transition: .2s ease-out;
     transform: translateX(-100%); }
-    header .header_row .nav_menu li a {
+    header .container .nav_menu li a {
       font-size: 20px;
       margin-top: 10px; }
-      header .header_row .nav_menu li a:after {
+      header .container .nav_menu li a:after {
         display: none; }
-    header .header_row .nav_menu li i {
+    header .container .nav_menu li i {
       display: none; }
-  header .header_row .burger {
+  header .container .burger {
     display: block;
     width: 25px;
     height: 25px;
     position: relative;
     cursor: pointer;
     outline: none; }
-    header .header_row .burger span {
+    header .container .burger span {
       background-color: #000;
       width: 100%;
       height: 2px;
@@ -335,19 +335,19 @@ footer .container {
       top: 12px;
       position: absolute;
       transform: translateY(5px); }
-      header .header_row .burger span:after, header .header_row .burger span:before {
+      header .container .burger span:after, header .container .burger span:before {
         content: '';
         display: block;
         background-color: #000;
         width: 100%;
         height: 2px;
         position: absolute; }
-      header .header_row .burger span:after {
+      header .container .burger span:after {
         top: -5px;
         transform-origin: right; }
-      header .header_row .burger span:before {
+      header .container .burger span:before {
         bottom: -5px; }
-  header .header_row .menu_active {
+  header .container .menu_active {
     transition: .2s ease-out;
     transform: translateX(0%); }
 
